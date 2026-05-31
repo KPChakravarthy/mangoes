@@ -1,0 +1,122 @@
+{
+  "navigation": {
+    "siteName": "Saketh Farm",
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "cart": "Cart"
+  },
+  "home": {
+    "heroTitle": "Fresh from Saketh Farm",
+    "heroSubtitle": "Organic, pesticide-free mangoes grown with love and care",
+    "productsTitle": "Our Premium Varieties",
+    "productsSubtitle": "Handpicked from our orchards, delivered fresh to your doorstep",
+    "addToCart": "Add to Cart",
+    "available": "Available",
+    "perKg": "per kg",
+    "soldOut": "Sold Out",
+    "products": [
+      {
+        "id": "1",
+        "name": "Alphonso Mango",
+        "variety": "Alphonso (Hapus)",
+        "image": "https://images.unsplash.com/photo-1622955658214-d05c1c6fcf84?w=800&h=600&fit=crop&auto=format",
+        "stock": 150,
+        "pricePerKg": 450,
+        "isSoldOut": false
+      },
+      {
+        "id": "2",
+        "name": "Kesar Mango",
+        "variety": "Kesar",
+        "image": "https://images.unsplash.com/photo-1732472581875-89ff83f18439?w=800&h=600&fit=crop&auto=format",
+        "stock": 200,
+        "pricePerKg": 380,
+        "isSoldOut": false
+      },
+      {
+        "id": "3",
+        "name": "Dasheri Mango",
+        "variety": "Dasheri",
+        "image": "https://images.unsplash.com/photo-1685478677113-8c4a58503230?w=800&h=600&fit=crop&auto=format",
+        "stock": 120,
+        "pricePerKg": 320,
+        "isSoldOut": true
+      },
+      {
+        "id": "4",
+        "name": "Langra Mango",
+        "variety": "Langra",
+        "image": "https://images.unsplash.com/photo-1653856453410-44220fd90479?w=800&h=600&fit=crop&auto=format",
+        "stock": 180,
+        "pricePerKg": 300,
+        "isSoldOut": false
+      }
+    ]
+  },
+  "about": {
+    "heroTitle": "Our Story",
+    "heroSubtitle": "Grown with care in the heart of nature, bringing you the pure taste of sun-ripened mangoes",
+    "story": "Our journey began with a simple love for nature. We believe in letting the sun, soil, and rain do their work, bringing you mangoes that are as honest and fresh as the trees they come from.",
+    "featuresTitle": "What Makes Us Different",
+    "features": [
+      {
+        "title": "100% Organic",
+        "description": "We never use chemical pesticides or insecticides. Our mangoes grow naturally, protected by beneficial insects and organic farming practices."
+      },
+      {
+        "title": "Handpicked with Care",
+        "description": "Every mango is carefully hand-selected at peak ripeness. We inspect each fruit to ensure you receive only the finest quality."
+      },
+      {
+        "title": "Natural Ripening",
+        "description": "No artificial ripening agents, ever. Our mangoes ripen naturally on the tree or in controlled natural environments, preserving their authentic flavor."
+      },
+      {
+        "title": "Sustainable Practices",
+        "description": "We use composted organic matter, practice water conservation, and maintain biodiversity in our orchards to ensure the land thrives for generations to come."
+      }
+    ],
+    "realityTitle": "The Reality of Organic Farming",
+    "realityText1": "Choosing organic means accepting that not every mango will look picture-perfect. You might see natural blemishes, slight variations in size, or subtle marks on the skin. These are badges of authenticity, proof that your fruit grew without chemical interference.",
+    "realityText2": "But what you get in return is incomparable: mangoes that taste like they should, with rich, complex flavors that industrial farming can never replicate. Fruit that's safe for you, your children, and the earth. And the peace of mind that comes from knowing exactly where your food comes from.",
+    "quote": "We don't grow mangoes. We nurture them.",
+    "quoteAuthor": "The Farm"
+  },
+  "contact": {
+    "heroTitle": "Get in Touch",
+    "heroSubtitle": "Join our community of mango lovers",
+    "title": "Connect with Saketh Farm",
+    "subtitle": "We'd love to hear from you! Join our WhatsApp community to stay updated on fresh harvests, seasonal varieties, and exclusive offers.",
+    "communityTitle": "Join Our WhatsApp Community",
+    "communityDescription": "Get instant updates on fresh arrivals, harvest schedules, seasonal varieties, and connect with fellow mango enthusiasts!",
+    "communityButton": "Join Community Group",
+    "directWhatsappTitle": "Direct WhatsApp",
+    "directWhatsappDescription": "Have questions? Chat with us directly on WhatsApp for personalized assistance.",
+    "directWhatsappButton": "Start Chat",
+    "emailTitle": "Email Us",
+    "emailDescription": "For bulk orders or detailed inquiries, drop us an email.",
+    "farmVisitTitle": "Visit Our Farm",
+    "farmVisitDescription": "Experience the magic of mango farming firsthand! We welcome visitors during harvest season (May - July). Contact us to schedule a farm tour.",
+    "farmAddress": "Saketh Farm, Village Road, District Name, State - 000000",
+    "faqTitle": "Have Questions?",
+    "faqDescription": "Whether it's about our farming practices, delivery options, or product varieties, we're here to help!",
+    "faqButton": "Ask Us Anything"
+  },
+  "cart": {
+    "title": "Your Cart",
+    "subtitle": "Review your order and proceed to checkout",
+    "emptyTitle": "Your Cart is Empty",
+    "emptySubtitle": "Add some delicious mangoes to get started!",
+    "browseProducts": "Browse Products",
+    "summaryTitle": "Order Summary",
+    "total": "Total",
+    "yourNameLabel": "Your Name",
+    "yourNamePlaceholder": "Enter your name",
+    "orderWhatsappButton": "Order on WhatsApp",
+    "redirectNotice": "You'll be redirected to WhatsApp to complete your order and share payment details",
+    "nameAlert": "Please enter your name before ordering",
+    "emptyAlert": "Your cart is empty!",
+    "subtotal": "Subtotal"
+  }
+}
