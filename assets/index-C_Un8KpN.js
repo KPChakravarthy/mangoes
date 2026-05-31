@@ -142,6 +142,7 @@ Please change the parent <Route path="${V}"> to <Route path="${V==="/"?"*":`${V}
  */const yv=[["path",{d:"M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2",key:"1yyitq"}],["circle",{cx:"9",cy:"7",r:"4",key:"nufk8"}],["path",{d:"M22 21v-2a4 4 0 0 0-3-3.87",key:"kshegd"}],["path",{d:"M16 3.13a4 4 0 0 1 0 7.75",key:"1da9ce"}]],vv=Pt("users",yv),Sf=L.createContext(void 0);function gv({children:l}){const[i,a]=L.useState([]),d=v=>{a(w=>w.find(P=>P.id===v.id)?w.map(P=>P.id===v.id?{...P,quantity:P.quantity+1}:P):[...w,{...v,quantity:1}])},c=v=>{a(w=>w.filter(E=>E.id!==v))},f=(v,w)=>{if(w<=0){c(v);return}a(E=>E.map(P=>P.id===v?{...P,quantity:w}:P))},h=()=>{a([])},p=()=>i.reduce((v,w)=>v+w.pricePerKg*w.quantity,0),m=()=>i.reduce((v,w)=>v+w.quantity,0);return N.jsx(Sf.Provider,{value:{cart:i,addToCart:d,removeFromCart:c,updateQuantity:f,clearCart:h,getTotalPrice:p,getCartCount:m},children:l})}function Mu(){const l=L.useContext(Sf);if(!l)throw new Error("useCart must be used within a CartProvider");return l}const wv=`{
   "navigation": {
     "siteName": "Saketh Farm",
+    "metaImage": "https://images.unsplash.com/photo-1622955658214-d05c1c6fcf84?q=80&w=1200&h=630&auto=format&fit=crop",
     "home": "Home",
     "about": "About",
     "contact": "Contact",
